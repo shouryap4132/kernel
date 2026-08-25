@@ -7,11 +7,6 @@ int main() {
     char *str = unlimitedStringInput();
     printf("You entered: %s\n", str);
     free(str);
-
-
-
-
-
 }
 
 char *unlimitedStringInput() {
