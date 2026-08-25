@@ -1,0 +1,1 @@
+Today I went over the full basics, including how to instantiate [[Variables in C |variables]] and pointers.
