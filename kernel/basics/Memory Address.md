@@ -1,5 +1,5 @@
-One character takes 1 memory address
-A integer takes 4 memory address
+One character takes 1 [[Memory Address|memory address]]
+A integer takes 4 [[Memory Address|memory address]]
 
 
 So lets say this is our Memory Stack

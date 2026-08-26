@@ -1,4 +1,4 @@
-The memory stack is stored systematically:
+The [[Memory Address|memory]] stack is stored systematically:
 
 When you make an integer, for example:
 ```

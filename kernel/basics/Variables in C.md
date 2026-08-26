@@ -1,4 +1,4 @@
-[[private_projects/Learning C/Table of Contents|Table of Contents]] 
+[[Table of Contents|Table of Contents]] 
 Instantiating a variable includes two main parts
 type name = value
 

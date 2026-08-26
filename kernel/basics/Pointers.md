@@ -1,4 +1,4 @@
-Every variable has a memory address, and a variable that holds the memory address of itself or another variable is a pointer.
+Every [[Variables in C|variable]] has a [[Memory Address|memory address]], and a variable that holds the memory address of itself or another variable is a [[Pointers|pointer]].
 
 ```
 char *str; // A pointer to a character.
