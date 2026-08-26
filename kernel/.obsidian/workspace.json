@@ -48,9 +48,37 @@
               "icon": "lucide-file",
               "title": "Pointers"
             }
+          },
+          {
+            "id": "5a3f1525a0cc5024",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/1st Day.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1st Day"
+            }
+          },
+          {
+            "id": "194db3c1d455e617",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "basics/Variables in C.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variables in C"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -217,14 +245,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "6f07953ee0326776",
+  "active": "194db3c1d455e617",
   "lastOpenFiles": [
-    "Memory Address.md",
-    "basics/Pointers.md",
-    "basics/Variables in C.md",
-    "Untitled",
-    "daily/1st Day.md",
     "Table of Contents.md",
+    "private_projects/Learning C/Table of Contents.md",
+    "daily/1st Day.md",
+    "basics/Pointers.md",
+    "private_projects/Learning C",
+    "private_projects",
+    "daily/2nd Day.md",
+    "Untitled",
+    "basics/Memory Stack vs Heap.md",
+    "basics/Memory Address.md",
+    "basics/Variables in C.md",
     "references/ASCII Values.md",
     "references",
     "daily",

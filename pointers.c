@@ -2,9 +2,15 @@
 // studio in / out
 
 int main() {
-    char *str = "hello world";
+    int x = 4;
 
-    printf("%p\n", (void*)str);
-    printf("Address of str: %p\n", (void*)&str);
+    int *pX = &x;
+
+    int *y = pX;
+
+    x = 10;
+
+    printf("Value of x: %d\n", x);
+    printf("Value of y: %d\n", *y);
 }
 
