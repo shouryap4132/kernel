@@ -1,3 +1,7 @@
+<!-- AI reviews:
+- The explanation is mostly correct, but a pointer can also be NULL or point to a function, not only to a variable.
+-->
+
 Every [[Variables in C|variable]] has a [[Memory Address|memory address]], and a variable that holds the memory address of itself or another variable is a [[Pointers|pointer]].
 
 ```

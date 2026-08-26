@@ -1,3 +1,7 @@
+<!-- AI reviews:
+- The ASCII entries are correct except the pipe character `|`, whose hexadecimal value should be `7C`.
+-->
+
 ### Alphabet
 
 | Char  | Dec | Hex | Char  | Dec | Hex |

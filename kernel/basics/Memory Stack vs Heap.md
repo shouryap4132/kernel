@@ -1,3 +1,9 @@
+<!-- AI reviews:
+- Stack layout and allocation order are implementation details, not guarantees of the C language.
+- Heap allocation is not guaranteed to be chronological or to search only through higher addresses.
+- `realloc` may move an allocation, but it may also keep it in place; the allocator's behavior is implementation-dependent.
+-->
+
 The [[Memory Address|memory]] stack is stored systematically:
 
 When you make an integer, for example:

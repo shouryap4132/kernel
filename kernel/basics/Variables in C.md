@@ -1,3 +1,8 @@
+<!-- AI reviews:
+- `char letter = "A";` uses a string literal. A single character requires single quotes: `'A'`.
+- A C character is not guaranteed to use ASCII on every implementation; ASCII is common but implementation-dependent.
+-->
+
 [[Table of Contents|Table of Contents]] 
 Instantiating a variable includes two main parts
 type name = value
@@ -27,6 +32,6 @@ double pi = 3.141592653589793238462643383279502884197169399375105820974944592307
 ```
 ###### Characters
 ```
-char letter = "A";
+char letter = 'A';
 ```
 When storing the a character you are actually storing the [[ASCII Values|ASCII]] value
