@@ -1,5 +1,5 @@
 <!-- AI reviews:
-- The ASCII entries are correct except the pipe character `|`, whose hexadecimal value should be `7C`.
+- The table is ASCII-correct for GCC on Linux x86_64 except the pipe character `|`, whose hexadecimal value should be `7C`.
 -->
 
 ### Alphabet

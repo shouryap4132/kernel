@@ -1,6 +1,7 @@
 <!-- AI reviews:
-- `char letter = "A";` uses a string literal. A single character requires single quotes: `'A'`.
-- A C character is not guaranteed to use ASCII on every implementation; ASCII is common but implementation-dependent.
+- With GCC on Linux x86_64, `char letter = 'A';` is correct and the execution character set is ASCII-compatible, so the ASCII explanation applies to this environment.
+- The `double` example contains more decimal digits than a typical x86_64 `double` can represent; the literal is rounded to the precision of `double`.
+- `float pi = 3.14;` converts a double literal to float, so the stored value is an approximation.
 -->
 
 [[Table of Contents|Table of Contents]] 
@@ -34,4 +35,8 @@ double pi = 3.141592653589793238462643383279502884197169399375105820974944592307
 ```
 char letter = 'A';
 ```
-When storing the a character you are actually storing the [[ASCII Values|ASCII]] value
+When storing the a character you are actually storing the [[ASCII Values|ASCII]] value or EBCDIC values.
+
+ASCII is more common as it is used in newer settings
+
+Characters use single quotes `''` 

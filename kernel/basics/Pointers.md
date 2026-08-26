@@ -1,8 +1,9 @@
 <!-- AI reviews:
-- The explanation is mostly correct, but a pointer can also be NULL or point to a function, not only to a variable.
+- With GCC on Linux x86_64, the pointer examples are correct. A pointer can also hold a null pointer value, and function pointers are a separate pointer category.
+- `malloc()` returns `NULL` when allocation fails; check the returned pointer before dereferencing it.
 -->
 
-Every [[Variables in C|variable]] has a [[Memory Address|memory address]], and a variable that holds the memory address of itself or another variable is a [[Pointers|pointer]].
+Every [[Variables in C|variable]] has a [[Memory Address|memory address]], and a variable that holds the memory address of itself or another variable or function is a [[Pointers|pointer]].
 
 ```
 char *str; // A pointer to a character.
@@ -33,4 +34,8 @@ You can change the actual value of the variable through a pointer as well.
 
 printf("%d\n", *ptr); // and now it will print out 10.
 ```
+
+When you store a pointer to a malloc() address you have to make sure that the malloc didn't fail and the pointer is now null.
+
+`NULL` is an option that pointers can hold.
 

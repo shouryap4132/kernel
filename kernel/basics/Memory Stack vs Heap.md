@@ -1,7 +1,7 @@
 <!-- AI reviews:
-- Stack layout and allocation order are implementation details, not guarantees of the C language.
-- Heap allocation is not guaranteed to be chronological or to search only through higher addresses.
-- `realloc` may move an allocation, but it may also keep it in place; the allocator's behavior is implementation-dependent.
+- With GCC on Linux x86_64, local variables commonly use a downward-growing call stack, but GCC may reorder, combine, register-allocate, or remove them; they are not guaranteed to be consecutive.
+- The Linux heap allocator does not guarantee chronological addresses or a search only through higher addresses.
+- `realloc()` may move an allocation or keep it in place; if it moves, the old pointer must be replaced with the returned pointer.
 -->
 
 The [[Memory Address|memory]] stack is stored systematically:
