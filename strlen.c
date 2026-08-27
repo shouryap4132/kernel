@@ -4,9 +4,14 @@
 #include <stdlib.h>
 
 //Standard library
+int stringlength(char *s){
+    int len = 0;
+    while(s[len] != '\0'){
+        len++;
+    }
+    return len;
+}
 
-// Forward declaration (function prototype)
-int stringlength(char *s);
 
 int main() {
 
@@ -56,10 +61,3 @@ int main() {
     free(str);
 }
 
-int stringlength(char *s){
-    int len = 0;
-    while(s[len] != '\0'){
-        len++;
-    }
-    return len;
-}
