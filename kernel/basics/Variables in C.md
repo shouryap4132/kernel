@@ -1,8 +1,4 @@
-<!-- AI reviews:
-- With GCC on Linux x86_64, `char letter = 'A';` is correct and the execution character set is ASCII-compatible, so the ASCII explanation applies to this environment.
-- The `double` example contains more decimal digits than a typical x86_64 `double` can represent; the literal is rounded to the precision of `double`.
-- `float pi = 3.14;` converts a double literal to float, so the stored value is an approximation.
--->
+
 
 [[Table of Contents|Table of Contents]] 
 Instantiating a variable includes two main parts

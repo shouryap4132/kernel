@@ -1,8 +1,3 @@
-<!-- AI reviews:
-- On GCC Linux x86_64, a byte is 8 bits, `char` occupies 1 byte, and `int` normally occupies 4 bytes. The C standard itself does not require every target to use these sizes.
-- x86_64 is little-endian, so the value 4 would normally be stored as `04 00 00 00` at addresses `0x1000` through `0x1003`; the table currently shows big-endian order.
-- The CPU explanation is simplified: the compiler may keep a variable in a register or optimize it away instead of loading it directly from memory.
--->
 
 One character takes 1 [[Memory Address|memory address]]
 A integer takes 4 [[Memory Address|memory address]]

@@ -10,7 +10,7 @@ int stringlength(char *s);
 
 int main() {
 
-    size_t capacity = 0;
+    size_t capacity =1;
     size_t length = 0;
 
     char *str = malloc(capacity * sizeof(char));

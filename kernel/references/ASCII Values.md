@@ -1,6 +1,3 @@
-<!-- AI reviews:
-- The table is ASCII-correct for GCC on Linux x86_64 except the pipe character `|`, whose hexadecimal value should be `7C`.
--->
 
 ### Alphabet
 
@@ -45,41 +42,41 @@
 
 ### Essential Special Characters
 
-|Char|Name|Dec|Hex|
-|---|---|--:|--:|
-||Space|32|20|
-|`!`|Exclamation|33|21|
-|`"`|Double quote|34|22|
-|`#`|Hash|35|23|
-|`$`|Dollar|36|24|
-|`%`|Percent|37|25|
-|`&`|Ampersand|38|26|
-|`'`|Apostrophe|39|27|
-|`(`|Left parenthesis|40|28|
-|`)`|Right parenthesis|41|29|
-|`*`|Asterisk|42|2A|
-|`+`|Plus|43|2B|
-|`,`|Comma|44|2C|
-|`-`|Hyphen|45|2D|
-|`.`|Period|46|2E|
-|`/`|Slash|47|2F|
-|`:`|Colon|58|3A|
-|`;`|Semicolon|59|3B|
-|`<`|Less-than|60|3C|
-|`=`|Equals|61|3D|
-|`>`|Greater-than|62|3E|
-|`?`|Question mark|63|3F|
-|`@`|At sign|64|40|
-|`[`|Left bracket|91|5B|
-|`\`|Backslash|92|5C|
-|`]`|Right bracket|93|5D|
-|`^`|Caret|94|5E|
-|`_`|Underscore|95|5F|
-|`` ` ``|Backtick|96|60|
-|`{`|Left brace|123|7B|
-|`|`|Pipe|124|
-|`}`|Right brace|125|7D|
-|`~`|Tilde|126|7E|
+| Char      | Name              |  Dec | Hex |
+| --------- | ----------------- | ---: | --: |
+|           | Space             |   32 |  20 |
+| `!`       | Exclamation       |   33 |  21 |
+| `"`       | Double quote      |   34 |  22 |
+| `#`       | Hash              |   35 |  23 |
+| `$`       | Dollar            |   36 |  24 |
+| `%`       | Percent           |   37 |  25 |
+| `&`       | Ampersand         |   38 |  26 |
+| `'`       | Apostrophe        |   39 |  27 |
+| `(`       | Left parenthesis  |   40 |  28 |
+| `)`       | Right parenthesis |   41 |  29 |
+| `*`       | Asterisk          |   42 |  2A |
+| `+`       | Plus              |   43 |  2B |
+| `,`       | Comma             |   44 |  2C |
+| `-`       | Hyphen            |   45 |  2D |
+| `.`       | Period            |   46 |  2E |
+| `/`       | Slash             |   47 |  2F |
+| `:`       | Colon             |   58 |  3A |
+| `;`       | Semicolon         |   59 |  3B |
+| `<`       | Less-than         |   60 |  3C |
+| `=`       | Equals            |   61 |  3D |
+| `>`       | Greater-than      |   62 |  3E |
+| `?`       | Question mark     |   63 |  3F |
+| `@`       | At sign           |   64 |  40 |
+| `[`       | Left bracket      |   91 |  5B |
+| `\`       | Backslash         |   92 |  5C |
+| `]`       | Right bracket     |   93 |  5D |
+| `^`       | Caret             |   94 |  5E |
+| `_`       | Underscore        |   95 |  5F |
+| `` ` ``   | Backtick          |   96 |  60 |
+| `{`       | Left brace        |  123 |  7B |
+| Pipe (\|) |                   | Pipe |  7C |
+| `}`       | Right brace       |  125 |  7D |
+| `~`       | Tilde             |  126 |  7E |
 
 **Quick pattern to remember:**  
 `A–Z = 65–90` → `a–z = 97–122` → `0–9 = 48–57`

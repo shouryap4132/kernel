@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basics/Memory Stack vs Heap.md",
+                "file": "references/ASCII Values.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memory Stack vs Heap"
+              "title": "ASCII Values"
             }
           }
         ],
@@ -219,18 +219,18 @@
   },
   "active": "5a3f1525a0cc5024",
   "lastOpenFiles": [
-    "basics/Memory Address.md",
-    "basics/Memory Stack vs Heap.md",
-    "basics/Pointers.md",
-    "basics/Variables in C.md",
     "Table of Contents.md",
+    "daily/2nd Day.md",
     "daily/1st Day.md",
+    "basics/Variables in C.md",
+    "basics/Pointers.md",
+    "basics/Memory Stack vs Heap.md",
+    "basics/Memory Address.md",
+    "references/ASCII Values.md",
     "private_projects/Learning C/Table of Contents.md",
     "private_projects/Learning C",
     "private_projects",
-    "daily/2nd Day.md",
     "Untitled",
-    "references/ASCII Values.md",
     "references",
     "daily",
     "basics",
