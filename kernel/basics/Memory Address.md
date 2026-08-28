@@ -1,4 +1,13 @@
 
+[[Table of Contents|Back]] | [[Variables in C]] | [[Pointers]] | [[Memory Stack vs Heap]]
+
+## Table of Contents
+- Memory Size Per Type
+- Memory Stack Example
+- Binary Representation
+
+---
+
 One character takes 1 [[Memory Address|memory address]]
 A integer takes 4 [[Memory Address|memory address]]
 

@@ -1,4 +1,11 @@
 
+[[Table of Contents|Back]] | [[Variables in C]] | [[Pointers]] | [[Memory Address]]
+
+## Table of Contents
+- Stack Storage
+- Heap Storage
+
+---
 
 The [[Memory Address|memory]] stack is stored systematically:
 

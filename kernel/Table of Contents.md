@@ -3,6 +3,7 @@
 [[Pointers]]
 [[Memory Address]]
 [[Memory Stack vs Heap]]
+[[Functions]]
 [[1st Day]]
 [[2nd Day]]
 

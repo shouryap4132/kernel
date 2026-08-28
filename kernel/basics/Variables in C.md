@@ -1,6 +1,18 @@
 
 
-[[Table of Contents|Table of Contents]] 
+[[Table of Contents|Table of Contents]] | [[Pointers]] | [[Memory Address]]
+
+## Table of Contents
+- Instantiating Variables
+- Syntax
+- Basic Data Types
+  - Integers
+  - Floats
+  - Double
+  - Characters
+
+---
+
 Instantiating a variable includes two main parts
 type name = value
 

@@ -1,3 +1,14 @@
+[[Table of Contents|Back]] | [[Variables in C]] | [[Pointers]]
+
+## Table of Contents
+- Function Syntax
+- Function Instantiation
+  - After (Prototype)
+  - Before (Full Definition)
+- Void Functions
+- Arrays
+
+---
 
 Making a function in c involves 3 main parts
 
@@ -49,3 +60,22 @@ void helloWorld(){
 }
 ```
 
+### Arrays
+When passing through arrays you have two options. Note: Arrays as [[Pointers|pointers]] require understanding [[Memory Address|memory addresses]].
+1.  ```
+   
+   void printArray(int arr[], int size){
+	   for(int i = 0; i < size; i++){
+		   printf("%d ", arr[i]);
+	   }
+   }
+   
+   ```
+OR
+1. ```
+   void printArray(int* arr, int size){
+	   for(int i = 0; i < size; i ++){
+		   printf("%d ", arr[i]);
+	   }
+   }
+   ```

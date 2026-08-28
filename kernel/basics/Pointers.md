@@ -1,4 +1,14 @@
 
+[[Table of Contents|Back]] | [[Variables in C]] | [[Memory Address]] | [[Memory Stack vs Heap]]
+
+## Table of Contents
+- Pointer Definition
+- Pointer Syntax
+- Dereferencing
+- Modifying Values Through Pointers
+- NULL Pointers
+
+---
 
 Every [[Variables in C|variable]] has a [[Memory Address|memory address]], and a variable that holds the memory address of itself or another variable or function is a [[Pointers|pointer]].
 
