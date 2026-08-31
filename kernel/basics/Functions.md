@@ -61,7 +61,7 @@ void helloWorld(){
 ```
 
 ### Arrays
-When passing through arrays you have two options. Note: Arrays as [[Pointers|pointers]] require understanding [[Memory Address|memory addresses]].
+When passing through arrays you have two options. Note: Arrays as [[Pointers|pointers]] require understanding [[Memory Address|memory addresses]]. (Both are the same)
 1.  ```
    
    void printArray(int arr[], int size){
